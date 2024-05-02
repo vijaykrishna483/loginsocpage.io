@@ -9,13 +9,13 @@ body {
 
 .container{
     width: 350px;
-    height:350px;
+    height:420px;
     background:linear-gradient(#fd8e0f,rgb(208, 174, 129));
     border-radius: 30px;
     box-shadow: 0 0 10px rgba(88, 79, 79, 0.1);
     padding-top:0px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 0px;
 
 }
 
@@ -46,9 +46,10 @@ input{
 .login{
     background-color:#4681f4 ;
     color: white;
-    width: 250px;
+    width: 150px;
     height: 35px;
     border-radius: 10px;
+    align-items: flex-end;
 }
 .login:hover{
     background-color:white ;
@@ -61,9 +62,56 @@ input{
   opacity: 0.8;  
 }
 body{
-    background-image: url('watsa1\ \(1\)\ \(1\).jpg'); /* Path to your background image */
-    background-size: cover; /* Cover the entire background */
+    background-image: url('watsa1\ \(1\)\ \(1\).jpg') ;
+    opacity: 0.8; 
+    background-size: cover; 
     background-repeat: no-repeat;   
     width: 100vw;
     height: 100vh;
+    
+}
+
+.horizontal{
+    display: flex;
+    flex-direction: horizontal;
+    margin-left: 50px;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+p{
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+.checkbox{
+    margin-left: 0;
+    margin-right: 5px;
+    width: 15px;
+    height:15px;
+    border-radius: 2px;
+    color: blue;
+
+
+}
+.abc{
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom:100px;
+    color: blue;
+    align-items: center;
+    
+}
+.abc:hover{
+    opacity: 0.;
+}
+.comment{
+    margin-top: 0px;
+    border-radius: 10px;
+    width: 280px;
+    max-width: 280px;
+    height: 45px;
+    padding-left:20px ;
 }
